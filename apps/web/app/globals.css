@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0f1f26;
+  --surface: #f6f8f7;
+  --card: #ffffff;
+  --line: #dde3e1;
+  --primary: #0e6b6b;
+  --due: #b26b00;
+  --overdue: #b02e1f;
+  --done: #3a7d5c;
+  --muted: #6b7c80;
+}
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+}
